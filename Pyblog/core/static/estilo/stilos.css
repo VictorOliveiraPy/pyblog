@@ -1,0 +1,25 @@
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+    border-radius: 50%;
+    border-color: #363635;
+    border-width: 7px;
+    border-style: solid;
+    filter: grayscale(100%);
+    transition: all 850ms;
+}
+
+.foto-perfil:hover{
+    transform: rotate(360deg);
+    filter: grayscale(0%);
+}
